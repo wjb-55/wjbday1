@@ -15,6 +15,7 @@ public class WjbTest {
         Date date = new Date();
         session.setAttribute("aa",date);
         System.out.println();
+        System.out.println("www");
         return "login";
     }
 
