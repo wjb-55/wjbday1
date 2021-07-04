@@ -14,6 +14,7 @@ public class WjbTest {
     public String login(HttpSession session){
         Date date = new Date();
         session.setAttribute("aa",date);
+        System.out.println();
         return "login";
     }
 
